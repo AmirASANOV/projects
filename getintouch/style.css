@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(116, 116, 116);
+    overflow-x: hidden;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+span {
+    color: #DD5471;
+}
+
+
+.block {
+    background-color: #fff;
+    width: 1440px;
+    height: 900px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.content {
+    display: block;
+    margin: 10px;
+    justify-content: flex-start;
+    padding: 150px 50px 0 150px;
+    
+}
+
+
+.gtext {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-indent: 10px;
+    margin: 5px;
+    border: 1px solid rgb(197, 197, 197);
+    height: 40px;
+}
+
+
+.button {
+    height: 40px;
+    margin: 10px 5px 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DD5471;
+    color: #fff;
+    border: none;
+}
+
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+
+
+
+.links {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.images {
+    height: 29px;
+    margin: 5px;
+    display: flex;
+    
+}
+
+
+
+
+.map {
+    
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-right: 150px;
+}
+
+.blueblock {
+    position: inherit;
+    background-color: #183A4A;
+    height: 100%;
+    width: 20%;
+    border-radius: 0 50px 50px 0;
+    margin-left: -270px;
+    margin-right: 0em;
+    display: flex;
+}
+
+
