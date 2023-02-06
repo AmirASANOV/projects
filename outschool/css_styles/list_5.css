@@ -1,0 +1,79 @@
+.list_5 {
+    padding-top: 50px;
+    background-image: url(../images/list_5/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 375px;
+}
+
+
+.title_news {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.container_cards {
+    display: flex;
+}
+
+.container_news {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 11px rgba(153, 153, 153, 0.3);
+    margin: 20px;
+}
+
+.info_news {
+    padding: 20px;
+}
+
+.genre {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.002em;
+    color: #787878;
+}
+
+.title_card {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.002em;
+    color: #000000;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.002em;
+    color: #888888;
+}
+
+.button_news {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.002em;
+    text-decoration: none;
+    color: #5228B6;
+    cursor: pointer;
+}

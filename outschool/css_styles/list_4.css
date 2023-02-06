@@ -1,0 +1,67 @@
+.grow {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg_grow {
+    margin-right: 120px;
+}
+
+.title_grow, .title_support, .title_news {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    
+    letter-spacing: -0.002em;
+
+    color: #000000;
+}
+
+.description_grow, .description_support {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: justify;
+    color: #666768;
+}
+
+.button_grow {
+    background: #AC85FF;
+    border-radius: 12px;
+    color: #fff;
+    font-family: 'Poppins';
+    width: 181px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.button_support {
+    width: 178px;
+    height: 50px;
+    left: 147px;
+    top: 4227px;
+    background: #5228B6;
+    border-radius: 12px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}

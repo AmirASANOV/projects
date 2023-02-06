@@ -1,0 +1,75 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
+    border-radius: 0px 0px 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #fff;
+}
+
+.big {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text_fish {
+    width: 527px;
+    height: 99px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.button_1 {
+    width: 172px;
+    height: 44px;
+    background-color: #FF00C7;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: .3s;
+}
+
+.button_1:hover {
+    background-color: #c40099;
+}
+
+
+.button_2 {
+    cursor: pointer;
+    width: 172px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.541);
+    transition: .3s;
+}
+
+.button_2:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.button_1:active{
+    transform: scale(0.9);
+}
+
+.button_2:active{
+    transform: scale(0.9);
+}
+    

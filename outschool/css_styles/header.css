@@ -1,0 +1,51 @@
+.text {
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.text_1 {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-right: 30px;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.list_1 {
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.logo {
+    height: 15px;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.headerScroll {
+    position: absolute;
+}
+
+
+
