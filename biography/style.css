@@ -1,0 +1,290 @@
+.text_type_1 {
+    color: #fff;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.text_type_2{
+    color: #7127BA;
+}
+
+.big_text {
+    font-size: 50px;
+}
+
+.name_block {
+    font-size: 26px;
+}
+
+body {
+    margin: 0;
+    height: 600vh;
+    background: #11071F;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #11071F;
+    z-index: 1;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+.nav {
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+}
+
+.nav_link {
+    margin: 0 168px 0 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation {
+    position: relative;
+    left: 100px;
+    display: flex;
+}
+
+.arrow {
+    position: relative;
+    top: 95px;
+    right: 20px;
+    width: 130px;
+}
+
+.bio {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.parents_1 {
+    display: flex;
+}
+
+.avatar {
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.quote {
+    position: relative;
+    top: 50px;
+    margin-left: 53px;
+}
+
+
+
+.job {
+    position: relative;
+    top: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.fb {
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.work_expierence {
+    position: relative;
+    top: 170px;
+}
+
+.mobile {
+    position: relative;
+    top: 630px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.block_1 {
+    width: 570px;
+    height: 193px;
+    background-color: #2C1250;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_block {
+    width: 119px;
+    height: 33px;
+    border-radius: 15px;
+    background: #2C1250;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #693B93;
+    font-size: 10px;
+}
+
+
+.block_2 {
+    width: 570px;
+    height: 193px;
+    background-color: #2C1250;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_3 {
+    width: 570px;
+    height: 193px;
+    background-color: #2C1250;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_4 {
+    width: 570px;
+    height: 193px;
+    background-color: #2C1250;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpose {
+    position: relative;
+    top: 800px;
+}
+
+.purpose_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.text_type_3 {
+    color: hsla(271, 59%, 59%, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text_type_4 {
+    color: hsla(226, 70%, 88%, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.text_type_5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #CCD6F6;
+}
+
+.example_project {
+    position: relative;
+    top: 910px;
+    display: flex;
+    justify-content: center;
+}
+
+.block_one {
+    background: #2C1250;
+    border-radius: 20px;
+    display: block;
+    padding: 5px 46px;
+}
+
+.icons_click {
+    margin: 37px 0px 0px 17px;
+}
+
+.screenshot {
+    z-index: -1;
+    position: relative;
+    right: 85px;
+}
+
+.example_project_2 {
+    position: relative;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.screenshot_1 {
+    z-index: -1;
+    position: relative;
+    left: 20px;
+}
+
+.finish {
+    position: relative;
+    top: 1100px;
+    margin-left: 470px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
+
+.scrollHeader {
+    position: absolute;
+}
